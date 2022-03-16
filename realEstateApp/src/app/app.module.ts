@@ -5,13 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {PropertyCradComponent } from './property/property-card/property-card.component';
 import { PropertyListComponent } from './property/property-list/property-list.component';
+import { NewBarComponent } from './new-bar/new-bar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     PropertyCradComponent,
-    PropertyListComponent
+    PropertyListComponent,
+    NewBarComponent
   ],
   imports: [
     BrowserModule,
